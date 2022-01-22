@@ -1,3 +1,4 @@
+import GreetingMulti from './components'
 import './App.css'
 
 const languageGreetingsList = [
@@ -22,6 +23,6 @@ const languageGreetingsList = [
 ]
 
 // Replace your code here
-const App = () => <h1>Hello World</h1>
+const App = () => <GreetingMulti list={languageGreetingsList} />
 
 export default App
